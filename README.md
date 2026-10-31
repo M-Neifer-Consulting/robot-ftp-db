@@ -4,7 +4,8 @@ Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
 [Robot Framework](https://robotframework.org/)  FTP and database example. Example includes code written in Robot Framework and Python.
 
-[![CodeQL](https://github.com/mneiferbag/robot-ftp-db/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mneiferbag/robot-ftp-db/actions/workflows/codeql-analysis.yml)
+[![Dependabot Updates](https://github.com/M-Neifer-Consulting/robot-ftp-db/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/M-Neifer-Consulting/robot-ftp-db/actions/workflows/dependabot/dependabot-updates)
+[![CodeQL](https://github.com/M-Neifer-Consulting/robot-ftp-db/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/M-Neifer-Consulting/robot-ftp-db/actions/workflows/codeql-analysis.yml)
 
 ## Robot Framework
 
@@ -81,4 +82,3 @@ Stop server with `pg_ctl stop -D psqldb -m smart`.
 ## Tasks
 
 - [x] Replace hard coded insert in src/processor.py with ftp file content
-- [x] Create DB schema on DB container build
